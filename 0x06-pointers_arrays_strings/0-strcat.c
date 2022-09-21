@@ -1,11 +1,11 @@
 #include "main.h"
-#include <stdio.h>
+#include <string.h>
 
 /**
  * *_strcat - a function that concatenates two strings
- * @dest: string to be catenated to *src
- * @src: string to be catenated to *dest
- * Return: a pointer to dest
+ * @dest: input string parameter
+ * @src: input string parameter
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
@@ -18,6 +18,5 @@ char *_strcat(char *dest, char *src)
 
 	dest[dest_len + i] = '\0';
 
-	
 	return dest;
 }
