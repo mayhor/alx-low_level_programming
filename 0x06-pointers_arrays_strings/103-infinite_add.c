@@ -37,7 +37,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		if (j < 0)
 			value2 = 0;
 		else
-			value2 = 8(n2 + j) - '0';
+			value2 = *(n2 + j) - '0';
 		temp_total = value1 + value2 + surplus;
 		if (temp_total >= 10)
 			surplus = 1;
