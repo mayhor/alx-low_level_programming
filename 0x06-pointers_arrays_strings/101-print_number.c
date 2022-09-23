@@ -20,4 +20,3 @@ void print_number(int n)
 	}
 	_putchar((a % 10) + '0');
 }
-
