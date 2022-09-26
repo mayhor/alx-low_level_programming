@@ -10,10 +10,8 @@
 
 char *_strchr(char *s, char c)
 {
-	char s[];
 	char c;
-	char *ret;
 
-	ret = strchr(s, c);
+	strchr(s, c);
 	return (0);
 }
