@@ -12,11 +12,11 @@ int is_prime_number(int n)
 
 	i = 2;
 	if (n % 1 == 0)
-		return 0;
+		return (0);
 	else if (n == 1)
-		return 0;
+		return (0);
 	else if (n < 0)
-		return 0;
+		return (0);
 	else
-		return 1;
+		return (1);
 }
