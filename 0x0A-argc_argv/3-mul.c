@@ -19,9 +19,9 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		for (i = 1; i < argc; i++)
+		for (a = 1; a < argc; a++)
 		{
-			res *= atoi(argv[i]);
+			res *= atoi(argv[a]);
 		}
 		printf("%d\n", res);
 	}
