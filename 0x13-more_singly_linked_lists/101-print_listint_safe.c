@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * print_listint_safe - Prints a linked list
- * @head: input
+ * print_listint_safe - prints a linked list
+ * @head: head of a list
  * Return: i
  */
 
